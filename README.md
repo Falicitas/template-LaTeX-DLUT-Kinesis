@@ -1,4 +1,4 @@
-# template-LaTeX-ECNU-F0RE1GNERS
+# template-LaTeX-DLUT-Kinesis
 Build Code Library with LaTeX,  base on [ECNU F0RE1GNERS template](https://github.com/F0RE1GNERS/template/tree/master).
 
 [PDF 下载](https://github.com/Falicitas/template-LaTeX-DLUT-Kinesis/blob/gh-pages/template.pdf)
