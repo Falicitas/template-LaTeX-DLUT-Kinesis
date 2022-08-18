@@ -11,6 +11,7 @@
 \usepackage{minted}
 \usepackage{titlesec}
 \usepackage{pdfpages}
+\usepackage{ctex}
 
 \titlespacing\section{0pt}{15pt}{0pt}
 \titlespacing\subsection{0pt}{5pt}{0pt}
@@ -84,27 +85,27 @@
 
 \begin{document}
 \begin{landscape}
-\begin{multicols}{3}
+    \begin{multicols}{3}
 
-\maketitle
-\vspace{-10ex}
+        \maketitle
+        \vspace{-10ex}
 
-\hspace*{-\parindent}%
-\begin{minipage}{0.45\linewidth}
-\begin{center}
-F0RE1GNERS \\
-March 2019
-\end{center}
-\end{minipage}
+        \hspace*{-\parindent}%
+        \begin{minipage}{0.45\linewidth}
+            \begin{center}
+                F0RE1GNERS \\
+                March 2019
+            \end{center}
+        \end{minipage}
 
-\tableofcontents
-\pagestyle{fancy}
+        \tableofcontents
+        \pagestyle{fancy}
 
-\input contents.tex
+        \input contents.tex
 
-\end{multicols}
+    \end{multicols}
 
-\includepdf[pages=-]{cheatsheat.pdf}
+    \includepdf[pages=-]{cheatsheat.pdf}
 \end{landscape}
 
 \end{document}

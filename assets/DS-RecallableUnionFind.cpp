@@ -4,7 +4,7 @@ using i64 = long long;
 
 constexpr int N = 1e6 + 5;
 
-namespace uf {  // undo并查集 int fa[maxn], sz[maxn];
+namespace uf {  // undo并查集
 int undo[N], top, fa[N], sz[N];
 void init() {
     memset(fa, -1, sizeof fa);
